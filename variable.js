@@ -14,10 +14,16 @@ h *= 2; // Same as: h = h * 2
 let x2 = 10;
 x2 -= 5; // Same as: x2 = x2 - 5
 
+// Increment operator example
+let x3 = 5;
+x3++; // Same as: x3 = x3 + 1
+let z3 = x3;
+
 document.writeln(z); // Outputs: 7
 document .writeln(p);
 document.writeln(h); // Outputs: 20
 document.writeln(x2); // Outputs: 5
+document.writeln("x3 after increment: " + z3); // Outputs: 6
 
 
  let one = 1;
@@ -91,6 +97,40 @@ document.writeln(s);
 document.writeln(o);
 document.writeln(e);
 document.writeln(c);
+
+
+let A = 100;
+let B = 50;
+let X = A + B ;
+document.writeln (X);
+
+let C = 20;
+let E = 30;
+let X1 = (C + E) * 2;
+document.writeln(X1);
+
+let Z = 9;
+let i = 2;
+let V = Z % i;
+document.writeln(V);
+
+
+let P =6;
+P++;
+let Q =P;
+document.writeln(Q); 
+
+let H = 5;
+let I = H ** 2;
+document.writeln(I);
+
+let R = 3;
+let S = R ** 3;
+document.writeln(S);
+
+
+
+
 
 
 
