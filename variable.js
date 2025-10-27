@@ -45,6 +45,52 @@ document.writeln(one != "1");// false
 document.writeln(one==="1"); //false
 document.writeln(one !== "1"); //true)
 
+let a =8;
+a += 2;
+a -= 7;
+document.writeln(a);
+
+let c = 10;
+c +=2;
+c -=7;
+document.writeln(c);
+
+
+let b = 1;
+let d = 100+20+ b;
+document.writeln(d);
+
+let e =50;
+let f = 7* 2 + e;
+document.writeln(f);
+
+// In javascript , theere arethe following arithemetic operators:
+//+ operator - additions
+//- operator -substraction
+//*operator-multipication
+//**operator-exponentiation
+//    / operator - division
+//% operator - modulus
+//++ operator -increment
+//--operator - decrement
+
+
+let j =1 + 2; //3
+let k =5-3; //2
+let q= 2 * 4; //8
+let r = 3*-2 ; //-6
+let s =10/2 ; //5
+let o = 5% 3; //2
+
+
+document.writeln(j);
+document.writeln(k);
+document.writeln(q);
+document.writeln(r);
+document.writeln(s);
+document.writeln(o);
+document.writeln(e);
+document.writeln(c);
 
 
 
