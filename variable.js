@@ -128,6 +128,30 @@ let R = 3;
 let S = R ** 3;
 document.writeln(S);
 
+let a1 = 5;
+let b1 = 2;
+let c1 = a1/b1;
+document.writeln(c1);
+
+let l =9;
+let m1 = 2;
+let n1 = l %m1;
+document.writeln(n1);
+
+let d1 = 5;
+d1--;
+document.writeln(d1);
+
+let j1 =10;
+let k1 = j1 **2;
+document.writeln(k1);
+
+let p1 = 3;
+let q1 = Math.pow(p1,2);
+document.writeln(q1);
+
+let r1 = (10+5)*2;
+document.writeln(r1);
 
 
 
