@@ -153,6 +153,28 @@ document.writeln(q1);
 let r1 = (10+5)*2;
 document.writeln(r1);
 
+//OTHER OPERATORS
+
+// == operator - verifies if left hand side is equal to the right -hand side.
+// === operator -verifies if left side is equal to right and of the same type
+// != operator - check if the values are not equal and returns true if they differ, regardless of their data types
+// !== operator -check if the values and their data types are not eqaul , returning true only when both the value and the type differ.
+// > operator - verifies if left side is greater than right.
+// < operators - checks if left side is less than right.
+//>= operator checks if left side is greater or equal to right.
+// <= operator- checks if left side is less or equal to right 
+// logical operators
+// && operatoe - logical and conjuction -true only if the left -hand side and right hand side is true simultaneously.
+// || operator- logical or true if the left hand side is true or if the right hand side is true .
+// ! operator- logical not changes true into false and false into true .
+
+(1 + 2 == 3) &&  ! (2 + 3 > 4)//false
+(1+ 2 ==3) || !(2+3 > 4) //true
+!(1+3==3) && !(2+3>4)//false
+!(1 + 2 == 3) || !(2 + 3 > 4)//false
+(1+2==3) && ( 2 + 3 > 4)//true
+
+
 
 
 
