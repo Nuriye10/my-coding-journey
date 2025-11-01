@@ -1,26 +1,18 @@
+   <!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Application</title>
 
-1   <!DOCTYPE html>
-<html lang="en">
-<head>
-    
-    <title>today's date</title>
-    <script src="hello.js"></script>
-    <script src="variable.js"></script>
+    </head>
+    <body>
+       
+        <h2 id="output">I'm sentence number 1, and printed without JS'</h2>
+         <script>
+            document.getElementById("output").innerHTML = ("I'm sentence number 2 and I was printed with JS from the HTML file")
+         </script>
+
+
         
-</head>
-<body>
-    <h1>It's my first app!</h1>
-    <h2>This time I came for deep learning!</h2> 
-
-    
-    
-    <script>
-        let d = new Date();
-       document.body.innerHTML += "<h1>Today's date is " + d + "</h1>"
-
-      
-
-    </script>
+    </body>
     <script src="variable.js"></script>
-</body>
 </html>
