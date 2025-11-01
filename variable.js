@@ -1,17 +1,17 @@
-(x =5) ==  (x==5)//true
+let x = 10;
+let y = "Hi";
+let z = true;
+let a = "123";
 
-(x=5) === (x===5)//true
+document.writeln(typeof(a));
+document.writeln(typeof(x));
+document.writeln(typeof(y));
+document.writeln(typeof(z));
 
-(x =5) === (x==="5")//false
+let myNumber = "74";
+myNumber += 3;
+document.writeln(myNumber);
 
-x != 8 ;//true
-x !== 5;//false 
-x !== "5";//true
-x !==8;//true
-x > 8 ;//false
-x <8 ; //true
-x >= 8;//
-x <= 8; //truehit 
 
 
 
