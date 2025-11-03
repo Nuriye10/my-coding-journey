@@ -6,6 +6,14 @@ const str5 = str1+ str2+ str3+ str4;
 
 document.writeln(str5);
 
+ // their lexicographic order 
+const str6 ='Hello';
+const str7 = 'My';
+const str8 = 'Pretty';
+const str9 = 'World';
+// 
+
+
 
      
 
