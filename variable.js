@@ -1,22 +1,19 @@
-//string- Escape sequences
+//operations on string 
 
-let text = "My favourite cake is \"Tiramisu\"";
+let a = "abc";
+let b= "de";
+let c= "xyz";
+let d = a+b+c;
+let e = a.concat(b);
 
-//   \' - Single quote
-//  \" - Double quote
+let x = "hello";
+let y = "people";
+x += y;
 
-//  \\-backslash
-//  \b -backspace
-// \f-form feed 
-// \n - new line;
-// \r-carriage return 
-// \t -horizontal tabulator
-// \v -vertical tabulator 
 
-let message = "my favourite book\n \
- is \"The sea\""; 
-  
-console.log(message);
-document.writeln(message);
-console .log(text);
-document.writeln(text);
+console.log(y);
+document.writeln(x);
+console.log(d);
+console.log(e); 
+document.writeln(d);
+document.writeln(e);
