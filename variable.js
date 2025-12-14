@@ -5,6 +5,11 @@ let result = text.replace("Avatar", "game of thrones");
 let text2 = "I love programming , espacially 'javascript' ";
 let result1 =text2.replace('javascript', 'paython');
 
+let x = " Visit v3spacelab";
+let z = x.search("v3spacelab");
+console.log(z);
+document.writeln(z);
+
 console.log(result);
 document.writeln(result);
 
