@@ -1,17 +1,10 @@
-//replacement of string elements
+//String-conversion toUpper() and toLowercCase()
 
-let text = "My favourite movie is \"Avatar\". I like this movie so much.";
-let result = text.replace("Avatar", "game of thrones");
-let text2 = "I love programming , espacially 'javascript' ";
-let result1 =text2.replace('javascript', 'paython');
-
-let x = " Visit v3spacelab";
-let z = x.search("v3spacelab");
-console.log(z);
-document.writeln(z);
-
-console.log(result);
-document.writeln(result);
-
+let text  = "My favourite movie is \"Avatar\""; 
+let result = text.toLowerCase();
+let result1 = text.toUpperCase();
 console.log(result1);
+console.log(result);
+
+document.writeln(result);
 document.writeln(result1);
