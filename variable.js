@@ -1,7 +1,14 @@
-//Booleans
+ //if statements 
 
-let x = 5;
-x != 6;
-x== 6;
-console.log(x==6);
-console.log(x!=6);
+ let age = 45;
+ if (age > 30){
+   // document.writeln(age);
+    console.log(age);
+ }
+
+ let name = "Nuriye";
+ if (name.length > 5){
+   // document.writeln(name);
+    console.log(name);
+
+ }
