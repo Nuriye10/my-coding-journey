@@ -1,14 +1,24 @@
- //if statements 
+//Else statement
+let age = 25;
+let greeting;
+if (age < 20){
+    greeting= "Welcome young adault!"
+} else {
+    greeting= "Hi children!"
+  
+  
+}
 
- let age = 45;
- if (age > 30){
-   // document.writeln(age);
-    console.log(age);
- }
+    console.log(greeting);
+   // document.writeln(greeting);
 
- let name = "Nuriye";
- if (name.length > 5){
-   // document.writeln(name);
-    console.log(name);
+let ticketPrice = 20;
+let coffeePrice =5;
 
- }
+if (ticketPrice > 15){
+    bounce= "you can have free drink"
+} else {
+    bounce= "you can have free coffee"
+};
+console.log(bounce);
+ document.writeln(bounce);
