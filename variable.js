@@ -20,5 +20,16 @@ if (ticketPrice > 15){
 } else {
     bounce= "you can have free coffee"
 };
+
+ let apple = "Red";
+ let comment ;
+ if (apple!="Red")
+    {
+        comment= "The apple is sour"
+    } else {
+        comment = "The apple is sweet"
+    };
+    console.log(comment);
+    document.writeln(comment);
 console.log(bounce);
  document.writeln(bounce);
