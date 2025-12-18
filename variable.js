@@ -1,35 +1,20 @@
-//Else statement
-let age = 25;
-let greeting;
-if (age < 20){
-    greeting= "Welcome young adault!"
-} else {
-    greeting= "Hi children!"
-  
-  
-}
+//NESTED IF 
 
-    console.log(greeting);
-   // document.writeln(greeting);
+let a = 3;
+if(a >0){
+ let b =5;
 
-let ticketPrice = 20;
-let coffeePrice =5;
+ document.writeln(a);
+} 
 
-if (ticketPrice > 15){
-    bounce= "you can have free drink"
-} else {
-    bounce= "you can have free coffee"
-};
+let age =36;
+let weight =65;
+if(age > 35){
+    if (weight< 35){
 
- let apple = "Red";
- let comment ;
- if (apple!="Red")
-    {
-        comment= "The apple is sour"
-    } else {
-        comment = "The apple is sweet"
-    };
-    console.log(comment);
-    document.writeln(comment);
-console.log(bounce);
- document.writeln(bounce);
+
+        document.writeln(age);
+} 
+else{
+    document.writeln(weight);
+}   };
