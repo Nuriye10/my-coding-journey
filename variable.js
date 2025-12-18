@@ -1,17 +1,9 @@
-// String- the ternary operator
+// String- task
 
-let a =1;
-let b =2;
-let c = a > b ? a : b;
-onsole.log(c); // 2
+let text = "My favourite book is \"Harry potter\".I love this book so much."
 
 
-let animal = "cat";
-let bird = "parrot";
-let pet = ("cat" == "parrot" ? animal : bird);
-console.log(pet); // parrot
-
-let meat = "chicken";
-let vegetable = "broccoili";
-let food =("chicken"== "beef" ? meat : vegetable);
-console.log(food); // broccoili
+let text1 = text .replace("My favourite book is \"Harry potter\".I love this book so much.","My book is “HARRY POTTER”.");
+let text2 =text.replace("Harry potter"," potter harry");
+console.log(text1);
+console.log(text2);
