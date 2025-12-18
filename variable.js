@@ -1,33 +1,17 @@
-//switch statement
- 
+// String- the ternary operator
 
-let day = "monday";
-
-switch (new Date().getDay()) {
-
-    case 0 : "sunday";
-        document.writeln("sunday");
-        break;
-        case 1 : "monday";
-            document.writeln("monday");
-            break;
-            case 2 : "tuesday";
-                document.writeln("tuesday");
-                break;
-                case 3 : "wedensday"
-                    document.writeln("wedensday");
-                    break;
-
-                    case 4 : "thursday"
-                        document.writeln("thursday");
-                        break;
-
-                        case 5 : "friday"
-                            document.writeln("friday");
-                            break;
-                            case 6 : "saturday"
-                                document.writeln("saturday");
-                                break;
+let a =1;
+let b =2;
+let c = a > b ? a : b;
+onsole.log(c); // 2
 
 
-}
+let animal = "cat";
+let bird = "parrot";
+let pet = ("cat" == "parrot" ? animal : bird);
+console.log(pet); // parrot
+
+let meat = "chicken";
+let vegetable = "broccoili";
+let food =("chicken"== "beef" ? meat : vegetable);
+console.log(food); // broccoili
