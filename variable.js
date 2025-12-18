@@ -1,20 +1,16 @@
-//NESTED IF 
+//switch statement
+ 
+let color = "red";
 
-let a = 3;
-if(a >0){
- let b =5;
+switch (color) {
 
- document.writeln(a);
-} 
+    case "green" :
+        document.writeln("green");
+        break;
+        case "yellow" :
+            document.writeln("yellow");
+            break;
 
-let age =36;
-let weight =65;
-if(age > 35){
-    if (weight< 35){
-
-
-        document.writeln(age);
-} 
-else{
-    document.writeln(weight);
-}   };
+            default:
+                document.writeln("white");
+}
