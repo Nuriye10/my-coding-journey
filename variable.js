@@ -1,16 +1,33 @@
 //switch statement
  
-let color = "red";
 
-switch (color) {
+let day = "monday";
 
-    case "green" :
-        document.writeln("green");
+switch (new Date().getDay()) {
+
+    case 0 : "sunday";
+        document.writeln("sunday");
         break;
-        case "yellow" :
-            document.writeln("yellow");
+        case 1 : "monday";
+            document.writeln("monday");
             break;
+            case 2 : "tuesday";
+                document.writeln("tuesday");
+                break;
+                case 3 : "wedensday"
+                    document.writeln("wedensday");
+                    break;
 
-            default:
-                document.writeln("white");
+                    case 4 : "thursday"
+                        document.writeln("thursday");
+                        break;
+
+                        case 5 : "friday"
+                            document.writeln("friday");
+                            break;
+                            case 6 : "saturday"
+                                document.writeln("saturday");
+                                break;
+
+
 }
