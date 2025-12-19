@@ -1,10 +1,14 @@
  
-// String alerts and debugging tools.js
+//  alerts 
 
- let x = Math.random();
- if (x > 0.5){
-    console.log("Hello, it's nice to see you here!")
 
- } else {
-    console.log(x);
- }
+
+ let time = Math.random();
+ if (time > 12){
+    confirm("the party is tonight");
+    } else {
+        confirm("no party today");
+
+    }
+
+ 
