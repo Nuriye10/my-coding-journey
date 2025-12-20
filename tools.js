@@ -15,3 +15,12 @@ day[6]="saturday";
 console.log(day[3],day[5]);
 console.log (day.length);
 console.log(day.length -1);
+
+const Myhobbies =["reading", "coding","traveling","designing"];
+console.log(Myhobbies[1]);
+console.log(Myhobbies[3]);
+
+const Myinformations=["name:Nuriye", "age:38", "country:Turkey", "city:Istanbul"];
+console.log(Myinformations);
+console.log(Myinformations[0]);
+console.log(Myinformations[2]);
