@@ -1,18 +1,16 @@
  
-//  alerts 
+//Prompts
 
-
-let number = 5;
-if (5 < 0){
-    alert("Number is negative");
-
+let x = prompt("Please pass the number between 1 to 4");
+if(x >3){
+    alert("Number is greater than 3"); 
 }else{
-    alert ("Number is positive");
+    alert("Number is 3 or less");
 }
 
-let day ="Monday";
-if (day != "Monday"){
-    confirm("It's a working day");
+let person = prompt("Please enter your name", "Rose Mary");
+if (person != null) {
+    alert ("Name is  provided");
 }else{
-    confirm ("It's a weekend");
+    alert("Hello"+person+"!");
 }
