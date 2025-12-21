@@ -1,12 +1,13 @@
 //Introduction to array methods in JavaScript
 
-// const fruits =["apple", "banana", "Mango","Orange"];
+const NuriyesFavThings= ["reading","traveling","cooking","baking", "shopping"];
 
-// console.log(  fruits[2]) ;
+NuriyesFavThings[2 ]="dancing";
+NuriyesFavThings.push( "swimming");//adds to end of the array
+NuriyesFavThings.pop();//removes from end of the array
+NuriyesFavThings.shift();//removes from beginning of the array
+NuriyesFavThings.unshift("painting");//adds to beginning of the array
+console.log(NuriyesFavThings.length);
 
 
-const name = prompt('Enter your name:');
-const surname = prompt('Enter your surname:');
-const age = parseInt(prompt('Enter your age:'));
-const userData = [name, surname, age];
-console.log(userData);
+console.log(NuriyesFavThings);
