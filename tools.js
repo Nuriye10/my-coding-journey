@@ -1,13 +1,12 @@
-//Introduction to array methods in JavaScript
+// Other array methods 
+//toString(), join()
 
-const NuriyesFavThings= ["reading","traveling","cooking","baking", "shopping"];
+const greetings =["Hello", "hi","Hey", "welcome", "merhaba", "hola"];
+console.log(greetings.toString());
 
-NuriyesFavThings[2 ]="dancing";
-NuriyesFavThings.push( "swimming");//adds to end of the array
-NuriyesFavThings.pop();//removes from end of the array
-NuriyesFavThings.shift();//removes from beginning of the array
-NuriyesFavThings.unshift("painting");//adds to beginning of the array
-console.log(NuriyesFavThings.length);
+const chocolates= ["dairy milk","dark","white", "nutty"];
+console.log(chocolates.join("-"));
 
-
-console.log(NuriyesFavThings);
+const myKids= ["Azize","Tasnim","Halid","iDRIS","Nader"];
+console.log(myKids.toString());
+console.log(myKids.join("-"));
