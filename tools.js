@@ -1,7 +1,11 @@
-// Other array methods 
-// function: for each, map, filter,r
 
-function number(x){
-    return x * 2;
+
+   
+
+const numbers =[1,2,3,4,5,6];
+const even =numbers.filter(isEven);
+console.log(numbers);
+console.log(even);
+function isEven(value){
+    return value % 2 == 0;
 }
-console.log(number(2));
