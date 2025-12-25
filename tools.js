@@ -1,17 +1,18 @@
-// the for-of loop
+// The while loop//do while loop
 
-const numbers =[10, 20, 30, 40 ,50];
-for (value of numbers){
+  const shoppingList= ["milk", "bread", "eggs", "Butter", "cheese"];
+  let i =0;
+ while(i <shoppingList.length){
+    console.log(shoppingList[i]);
+    i++;
+ }  
 
-    console.log(value);
-}
+// do while loop
+do{
+    console.log(shoppingList[i]);
+    i++;
 
-let text = " Hello everyone!";
-for(value of text){
-    console.log(value);
-}
+}while(i <shoppingList.length);
 
-let myFavThings = ["Music", "Movies", "Sports"];
-for (value of myFavThings){
-    console.log(value);
-}
+
+
