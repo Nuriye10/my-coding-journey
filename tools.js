@@ -1,12 +1,16 @@
-// The loop scope
+//the for-in loop
 
-var i =5;
-for (var i =0; i< 10; i++){
-
-    console.log(i);//
+const numbers =[1,2,3,4,5,6];
+for (index in numbers){
+    console.log(numbers[index]);
 }
 
-let i =5;
-for (let i =0; i < 10; i++){
-    console.log(i);
-}//
+let text = "some pretty long string";
+for ( index in text ){
+    console.log(text.charAt(index));
+}
+  
+let message = "Please take your seats.";
+for (index in message){
+    console.log(message.charAt(index));
+}
