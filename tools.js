@@ -1,16 +1,17 @@
-//the for-in loop
+// the for-of loop
 
-const numbers =[1,2,3,4,5,6];
-for (index in numbers){
-    console.log(numbers[index]);
+const numbers =[10, 20, 30, 40 ,50];
+for (value of numbers){
+
+    console.log(value);
 }
 
-let text = "some pretty long string";
-for ( index in text ){
-    console.log(text.charAt(index));
+let text = " Hello everyone!";
+for(value of text){
+    console.log(value);
 }
-  
-let message = "Please take your seats.";
-for (index in message){
-    console.log(message.charAt(index));
+
+let myFavThings = ["Music", "Movies", "Sports"];
+for (value of myFavThings){
+    console.log(value);
 }
