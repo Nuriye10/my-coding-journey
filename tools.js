@@ -1,12 +1,14 @@
-//multi demensional arrays
+//loops
+for (let i =0;  i <=100; i++){
+    console.log(i);
+}
+const NuriyesFavThings = ["cake", "Coffee", "book", "shopping", "coding"];
 
-// const numbers2d= [[1,2,3],[2,5,6],[7,8,9],[10,11,12]];
-// const numbers3d=[[[1,2],[3,4]],[[5,6],[7,8]],[[9,10],[11,12]]];
-// console.log(numbers2d[2],);
-// console.log(numbers3d[1][0][1]);
+for(let i =0 ; i <= NuriyesFavThings.length-1; i++){
+    console.log(NuriyesFavThings[i]);
+}
 
-
-const numbers2d = [[0,1,2], [1,2,3], [1,2,4]];
-const numbers3d = [[[0],[1],[2,3]], [[0, 1],[2,3]], [[1],[1],[2,3]], [[1, 5],[2,3]]];
-console.log(numbers2d[0][1]); //1
-console.log(numbers3d[0][0][0]); //0
+const weekDays= ["monday","tuesday", "wednesday", "thursday", "friday"];
+for (let i =0; i <= weekDays.length -3; i++){
+    console.log(weekDays[i]);
+}
