@@ -1,38 +1,26 @@
-// The while loop//do while loop
+//disrupting the loop-break and continue
+    //break statement
+for (let i =0; i<10; i++){
+    if (i==5){
+        break;
+    }
+    console.log(i);
+}
 
-//   const shoppingList= ["milk", "bread", "eggs", "Butter", "cheese"];
-//   let i =0;
-//  while(i <shoppingList.length){
-//     console.log(shoppingList[i]);
-//     i++;
-//  }  
+//continue statement
+let shoppingList=['milk', 'bread', 'eggs', 'butter', 'cheese'];
+for(let i =0; i<shoppingList.length; i++){
+    if (shoppingList[i]==='eggs'){
+        continue;
+    }
+    console.log(shoppingList[i]);
+}
 
-// // do while loop
-// do{
-//     console.log(shoppingList[i]);
-//     i++;
-
-// }while(i <shoppingList.length);
-
-
-//   const array = [];
-//   for(let i = 1; i<20; i++){
-//     array.push(i);
-//   }  
-//   for (let i =0; i<array.length; i++){
-//     if (array[i]% 7==0){
-//         console.log("found first multiplicity of 7!: " + array[i]);
-//         break;
-//     }
-//     else{
-//         console.log(array[i]);
-
-//     }
-//     }
-
-const todoList =["cleaning", "shopping", "studying", "exercise"];
-let index =0;
-while(index < todoList.length){
-    console.log(todoList[index]);
-    index++;
+let i = 0;
+while(true){
+    i++;
+    if(i >=10){
+        break;
+    }
+    console.log(i);
 }
