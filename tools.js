@@ -1,12 +1,15 @@
+// function expression
+//arrow function
+const food = ["milk","bread", "eggs", "butter"];
 
+const fruit = ["mango", "orange", "grape", "pear"];
 
-    function add (x,y,z){
-        console.log(x+y+z);
+const printArray =(array)=>{
+    for (let i = 0; i<=array.length-1; i++){
+        console.log(array[i]);
+        document.writeln(array[i]);
     }
-    add(2,3,4);
+}
 
-    function multiply(a,b,c){
-        return a*b*c;
-    }
-    const result =multiply(2,3,4);
-    console.log(result);
+
+
