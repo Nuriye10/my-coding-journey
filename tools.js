@@ -1,18 +1,11 @@
-// function expression
-//arrow function
-const food = ["milk","bread", "eggs", "butter"];
-const songs=["song1", "song2", "song3", "song4"];
+//classes
 
-const fruit = ["mango", "orange", "grape", "pear"];
-const shoppingList=["soap", "shampoo","toothpaste", "toothbrush"];
-const printArray =(array)=>{
-    for (let i = 0; i<=array.length-1; i++){
-        console.log(array[i]);
-        document.writeln(array[i]);
-    }
+class ClassName {
+    constructor(){}
+    method_1(){}
+    method_2(){}
+    method_3(){}   
 }
-
-
 
 
 
