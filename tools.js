@@ -9,20 +9,39 @@
 
 //How to create a simple class : 
 
-class cake {
-  constructor (flavour, color, shape){
-    this.flavour = flavour;
-    this.color = color;
-    this.shape = shape;
-  }
+// class cake {
+//   constructor (flavour, color, shape){
+//     this.flavour = flavour;
+//     this.color = color;
+//     this.shape = shape;
+//   }
 
-  form() {
-    let currentForm = new Form();
-    return currentForm.shape();
-  }
-}
-let newCake = new cake("chocolate", "brown", "circule");
-console.log(newCake.flavour);//chocolate
-console.log(newCake.color);//brown
-console.log(newCake.shape);//
+//   form() {
+//     let currentForm = new Form();
+//     return currentForm.shape();
+//   }
+// }
+// let newCake = new cake("chocolate", "brown", "circule");
+// console.log(newCake.flavour);//chocolate
+// console.log(newCake.color);//brown
+// console.log(newCake.shape);//
   
+
+class house {
+    constructor(rooms, year, type) {
+        this.room = rooms;
+        this.year = year;
+        this.type = type;
+    }
+
+    floor() {
+        // Placeholder logic, as 'type' is a string, not a class
+        return this.type;
+    }
+}
+
+let newHouse = new house(5, 2024, "villa");
+console.log(newHouse.room); //5
+console.log(newHouse.year); //2024
+console.log(newHouse.type); //villa
+
