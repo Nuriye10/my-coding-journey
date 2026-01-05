@@ -44,4 +44,5 @@ let newHouse = new house(5, 2024, "villa");
 console.log(newHouse.room); //5
 console.log(newHouse.year); //2024
 console.log(newHouse.type); //villa
+//console.log(newHouse.floor()); //villa
 
