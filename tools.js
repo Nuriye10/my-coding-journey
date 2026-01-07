@@ -46,3 +46,16 @@ console.log(newHouse.year); //2024
 console.log(newHouse.type); //villa
 //console.log(newHouse.floor()); //villa
 
+class Animal {
+  constructor(name) {
+    this.name = name;
+  }
+
+  speak() {
+    console.log(`${this.name} makes a sound.`);
+  }
+}
+
+// Usage
+const dog = new Animal('Dog');
+dog.speak(); // Output: Dog makes a sound.
