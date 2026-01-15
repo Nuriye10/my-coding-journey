@@ -61,3 +61,14 @@ class Animal {
 
 const dog = new Animal('Dog');
 dog.speak(); // Output: Dog makes a sound.
+
+class Car {
+  constructor(brand, year) {
+    this.brand = brand;
+    this.year = year;
+  }
+
+  honk() {
+    console.log("Beep beep!");
+  }
+}
