@@ -55,24 +55,46 @@
 // let vanillaCake = new Cakes('Vanilla Pink','creamy vanilla',20);
 // console.log(vanillaCake.getCakes());
 
-class House {
-  constructor (name){
-    this.name=name;
+// class House {
+//   constructor (name){
+//     this.name=name;
 
-  }
-   info (){
-    return 'this is a house called :' + this.name + '.';
-   }
-}
-class  Villa extends House {
+//   }
+//    info (){
+//     return 'this is a house called :' + this.name + '.';
+//    }
+// }
+// class  Villa extends House {
+//   constructor(name, price){
+//     super(name);
+//     this.price =price;
+//   }
+//   infor (){
+//     return super.info() + 'It costs '+ this.price +'.';
+//   }
+// }
+// let myVilla = new Villa('Beach House', 500000);
+// let houseInfo = myVilla.infor();
+// console.log(houseInfo);
+
+class Pizza {
   constructor(name, price){
-    super(name);
-    this.price =price;
+    this.name=name;
+    this.price= price;
   }
-  infor (){
-    return super.info() + 'It costs '+ this.price +'.';
+  info( ){
+    return `I am basic pizza called ${this.name} and I cost $${this.price}`;
   }
 }
-let myVilla = new Villa('Beach House', 500000);
-let houseInfo = myVilla.infor();
-console.log(houseInfo);
+class SpecialPizza extends Pizza {
+  constructor(name, price, toppings) {
+    super(name, price);
+    this.toppings = toppings;
+  }
+  infor() {
+    return super.info() + ` My toppings are: ${this.toppings.join(', ')}.`;
+  }
+}
+let myPizza = new SpecialPizza('Pepperoni',15, ['Mushrooms', 'Olives', 'Extra Cheese']);
+let pizzaInfo = myPizza.infor();
+console.log(pizzaInfo);
