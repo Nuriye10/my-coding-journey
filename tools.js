@@ -30,27 +30,49 @@
 // console.log(myCar.age());     // Uses age method
 
   
-class Cakes{
-  constructor(name, flavour, price){
-  this._name= name;
-  this.flavour= flavour;
-  this.price= price;
+// class Cakes{
+//   constructor(name, flavour, price){
+//   this._name= name;
+//   this.flavour= flavour;
+//   this.price= price;
+
+//   }
+//   getCakes(){
+//     return `The cake is called ${this.name},its flavor is ${this.flavour} and it costs ${this.price}`;
+//   }
+
+// get name() {
+//   return this._name;
+// }
+// set name(newName){
+//   if(typeof newName === 'string'){
+//     this._name=newName;
+//   }else{
+//     console.log('Invalid name');
+//   }
+// }
+// }
+// let vanillaCake = new Cakes('Vanilla Pink','creamy vanilla',20);
+// console.log(vanillaCake.getCakes());
+
+class House {
+  constructor (name){
+    this.name=name;
 
   }
-  getCakes(){
-    return `The cake is called ${this.name},its flavor is ${this.flavour} and it costs ${this.price}`;
+   info (){
+    return 'this is a house called :' + this.name + '.';
+   }
+}
+class  Villa extends House {
+  constructor(name, price){
+    super(name);
+    this.price =price;
   }
-
-get name() {
-  return this._name;
-}
-set name(newName){
-  if(typeof newName === 'string'){
-    this._name=newName;
-  }else{
-    console.log('Invalid name');
+  infor (){
+    return super.info() + 'It costs '+ this.price +'.';
   }
 }
-}
-let vanillaCake = new Cakes('Vanilla Pink','creamy vanilla',20);
-console.log(vanillaCake.getCakes());
+let myVilla = new Villa('Beach House', 500000);
+let houseInfo = myVilla.infor();
+console.log(houseInfo);
