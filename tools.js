@@ -77,24 +77,53 @@
 // let houseInfo = myVilla.infor();
 // console.log(houseInfo);
 
-class Pizza {
-  constructor(name, price){
+// class Pizza {
+//   constructor(name, price){
+//     this.name=name;
+//     this.price= price;
+//   }
+//   info( ){
+//     return `I am basic pizza called ${this.name} and I cost $${this.price}`;
+//   }
+// }
+// class SpecialPizza extends Pizza {
+//   constructor(name, price, toppings) {
+//     super(name, price);
+//     this.toppings = toppings;
+//   }
+//   infor() {
+//     return super.info() + ` My toppings are: ${this.toppings.join(', ')}.`;
+//   }
+// }
+// let myPizza = new SpecialPizza('Pepperoni',15, ['Mushrooms', 'Olives', 'Extra Cheese']);
+// let pizzaInfo = myPizza.infor();
+// console.log(pizzaInfo);
+
+
+class student{
+  constructor(name, age, country){
     this.name=name;
-    this.price= price;
+    this.age=age;
+    this.country=country;
   }
-  info( ){
-    return `I am basic pizza called ${this.name} and I cost $${this.price}`;
+  greetings(){
+    return `Hello, my name is ` + this.name+ `  `+ this .age+ `  `+ this.country+ 
+    `.`;
+  }
+
+birthday (){
+
+    let date = new Date();
+    return date.getFullYear() - this.age;
   }
 }
-class SpecialPizza extends Pizza {
-  constructor(name, price, toppings) {
-    super(name, price);
-    this.toppings = toppings;
-  }
-  infor() {
-    return super.info() + ` My toppings are: ${this.toppings.join(', ')}.`;
-  }
-}
-let myPizza = new SpecialPizza('Pepperoni',15, ['Mushrooms', 'Olives', 'Extra Cheese']);
-let pizzaInfo = myPizza.infor();
-console.log(pizzaInfo);
+ const student1 = new student ('john', 23 ,'USA');
+ const student2= new student('anna', 20, 'UK');
+ const student3 = new student ('maria', 21, 'turkey');
+
+ console.log(student1.greetings());
+ console.log(student1.birthday());
+ console.log(student2.greetings());
+ console.log(student2.birthday());
+ console.log(student3.greetings());
+ console.log(student3.birthday());
